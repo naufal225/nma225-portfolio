@@ -10,7 +10,7 @@
     <nav>
         <div class="nav-content">
             <div class="brand">
-                <a href="#home"><h1>NMA225</h1></a>
+                <a href="#"><h1>NMA225</h1></a>
             </div>
             <div class="nav-bar">
                 <a href="#home" class="nav-link" >Home</a>
@@ -23,7 +23,7 @@
     <section id="home">
         <div class="home-content">
             <div class="img-profile">
-                <img src="img/profile.png" alt="">
+                <a href="https://www.github.com/naufal225"><img src="img/profile.png" alt=""></a>
             </div>
             <div class="text-content">
                 <span class="greating">Hello!</span>
@@ -33,10 +33,13 @@
     </section>
     <section id="about">
         <div class="about-content">
+            <div class="header">
+                <h2>About Me</h2>
+            </div>
             <div class="text-content">
                 <p>
                     My name is Naufal Ma'ruf Ashrori. I am usually called Naufal. I am 16 years old. 
-Now, I am a student at the Telesandi Telecommunication Vocational High School in Bekasi. I major in software engineering
+Now, I am a student at the Telesandi Telecommunication Vocational High School in Bekasi. I major in software engineering.
                 </p>
             </div>
         </div>
@@ -48,13 +51,21 @@ Now, I am a student at the Telesandi Telecommunication Vocational High School in
         <div class="contact-content">
             <div class="text-content">
                 <h2>Contact Me</h2>
-                <form action="submit.php" method="post">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="message" placeholder="Your Message" required></textarea>
-                    <button type="submit" name="submit">Send</button>
-                </form>
             </div>
+            <form action="submit.php" method="post">
+                <div class="input-row">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-row">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-row">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="input-row">
+                    <button type="submit" name="submit">Send</button>
+                </div>
+            </form>
         </div>
     </section>
 </body>
