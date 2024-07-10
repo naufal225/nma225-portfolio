@@ -10,13 +10,13 @@
     <nav>
         <div class="nav-content">
             <div class="brand">
-                <h1>NMA225</h1>
+                <a href="#home"><h1>NMA225</h1></a>
             </div>
             <div class="nav-bar">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
+                <a href="#home" class="nav-link" >Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <!-- <a href="#portfolio">Portfolio</a> -->
+                <a href="#contact" class="nav-link">Contact</a>
             </div>
         </div>
     </nav>
@@ -26,21 +26,36 @@
                 <img src="img/profile.png" alt="">
             </div>
             <div class="text-content">
-                <span>Hello!</span>
-                <span>I'm Naufal Ma'ruf Ashrori</span>
+                <span class="greating">Hello!</span>
+                <span class="name">I'm Naufal Ma'ruf Ashrori</span>
             </div>
         </div>
     </section>
     <section id="about">
         <div class="about-content">
-            
+            <div class="text-content">
+                <p>
+                    My name is Naufal Ma'ruf Ashrori. I am usually called Naufal. I am 16 years old. 
+Now, I am a student at the Telesandi Telecommunication Vocational High School in Bekasi. I major in software engineering
+                </p>
+            </div>
         </div>
     </section>
-    <section id="portfolio">
+    <!-- <section id="portfolio">
 
-    </section>
+    </section> -->
     <section id="contact">
-
+        <div class="contact-content">
+            <div class="text-content">
+                <h2>Contact Me</h2>
+                <form action="submit.php" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" name="submit">Send</button>
+                </form>
+            </div>
+        </div>
     </section>
 </body>
 </html>
