@@ -4,9 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ;
+    font-family: 'Poppins', 'Helvetica Neue';
+    text-decoration: none;
+    color: #fff;
 }
 
 body {
-    
+    background-color: rgba(0, 0, 0, 1);
 }
