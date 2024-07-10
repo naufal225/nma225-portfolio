@@ -56,6 +56,10 @@ nav .nav-bar a.nav-link:hover::after {
     width: 100%;
 }
 
+.hidden {
+    display: none;
+}
+
 section {
     width: 70%;
     min-height: 100vh;
@@ -168,4 +172,6 @@ textarea {
     cursor: pointer;
 }
 
-
+@media (max-width: 768px) {
+    
+}
